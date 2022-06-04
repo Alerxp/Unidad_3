@@ -1,0 +1,114 @@
+{
+    "__class__": "Lista",
+    "datos": [
+        {
+            "__class__": "Heladera",
+            "__atributos__": {
+                "marca": "Philips",
+                "modelo": "Chica",
+                "color": "Celeste",
+                "origen": "Argentina",
+                "base": 50000,
+                "capacidad": 450,
+                "freezer": true,
+                "ciclica": true
+            }
+        },
+        {
+            "__class__": "Heladera",
+            "__atributos__": {
+                "marca": "Philips",
+                "modelo": "Mediana",
+                "color": "Blanco",
+                "origen": "Argentina",
+                "base": 100000,
+                "capacidad": 360,
+                "freezer": false,
+                "ciclica": false
+            }
+        },
+        {
+            "__class__": "Lavarropas",
+            "__atributos__": {
+                "marca": "Samsung",
+                "modelo": "Chico",
+                "color": "Blanco",
+                "origen": "Argentina",
+                "base": 70000,
+                "capacidad": 5,
+                "rpm": 600,
+                "programas": 3,
+                "carga": "Frontal"
+            }
+        },
+        {
+            "__class__": "Televisor",
+            "__atributos__": {
+                "marca": "Samsung",
+                "modelo": "A27",
+                "color": "Negro",
+                "origen": "Argentina",
+                "base": 45000,
+                "pantalla": "TouchScreen",
+                "pulgadas": 40,
+                "definicion": "FULLHD",
+                "internet": true
+            }
+        },
+        {
+            "__class__": "Heladera",
+            "__atributos__": {
+                "marca": "Samsung",
+                "modelo": "Grande",
+                "color": "Gris",
+                "origen": "Argentina",
+                "base": 150000,
+                "capacidad": 450,
+                "freezer": true,
+                "ciclica": true
+            }
+        },
+        {
+            "__class__": "Lavarropas",
+            "__atributos__": {
+                "marca": "Drean",
+                "modelo": "Grande",
+                "color": "Blanco",
+                "origen": "Argentina",
+                "base": 72000,
+                "capacidad": 8,
+                "rpm": 1200,
+                "programas": 5,
+                "carga": "Superior"
+            }
+        },
+        {
+            "__class__": "Televisor",
+            "__atributos__": {
+                "marca": "Philco",
+                "modelo": "END",
+                "color": "Negro",
+                "origen": "Argentina",
+                "base": 30000,
+                "pantalla": "LED",
+                "pulgadas": 32,
+                "definicion": "HD",
+                "internet": false
+            }
+        },
+        {
+            "__class__": "Televisor",
+            "__atributos__": {
+                "marca": "TCL",
+                "modelo": "L32S60A",
+                "color": "Negro",
+                "origen": "Argentina",
+                "base": 36000,
+                "pantalla": "LED",
+                "pulgadas": 32,
+                "definicion": "HD",
+                "internet": true
+            }
+        }
+    ]
+}
