@@ -1,11 +1,11 @@
 from zope.interface import Interface
 
 class IPersonal(Interface):
-    def insertarPersonal(self, personal, posicion):
+    def insertarPersonal(personal, posicion):
         pass
 
-    def agregarPersonal(self, personal):
+    def agregarPersonal(personal):
         pass
 
-    def muestraTipo(self, posicion):
+    def muestraTipo(posicion):
         pass
