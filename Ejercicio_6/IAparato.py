@@ -1,11 +1,11 @@
 from zope.interface import Interface
 
 class IAparato(Interface):
-    def insertarAparato(self, aparato, posicion):
+    def insertarAparato(aparato, posicion):
         pass
 
-    def agregarAparato(self, aparato):
+    def agregarAparato(aparato):
         pass
 
-    def muestraTipo(self, posicion):
+    def muestraTipo(posicion):
         pass
