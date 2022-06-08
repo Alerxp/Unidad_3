@@ -2,7 +2,7 @@ from os import system
 from ObjectEncoder import ObjectEncoder
 from IPersonal import IPersonal
 
-def menu():
+def menu(lista):
 
     while True:
         print("\n***** MENÚ DE OPCIONES *****\n")
@@ -68,5 +68,5 @@ def menu():
 if __name__ == "__main__":
     json = ObjectEncoder()
     diccionario = json.leerJSONArchivo("personal.json")
-    lista = IPersonal(json.decodificarDiccionario(diccionario))
-    menu()
+    lista = json.decodificarDiccionario(diccionario)
+    menu(IPersonal(lista))
