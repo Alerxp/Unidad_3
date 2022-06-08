@@ -2,7 +2,7 @@ from os import system
 from ObjectEncoder import ObjectEncoder
 from IAparato import IAparato
 
-def menu():
+def menu(lista):
 
     while True:
         print("\n***** MENÚ DE OPCIONES *****\n")
@@ -64,5 +64,5 @@ def menu():
 if __name__ == "__main__":
     json = ObjectEncoder()
     diccionario = json.leerJSONArchivo("aparatoselectronicos.json")
-    lista = IAparato(json.decodificarDiccionario(diccionario))
-    menu()
+    lista = json.decodificarDiccionario(diccionario)
+    menu(IAparato(lista))
