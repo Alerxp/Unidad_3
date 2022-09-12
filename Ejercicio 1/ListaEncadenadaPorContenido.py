@@ -31,28 +31,6 @@ class Lista:
                 nodo.setSiguiente(sig)
         self.__cantidad += 1
 
-    """
-    def insertar(self, x):  # de mayor a menor
-        if self.vacia():
-            nodo = Nodo(x)
-            self.__cabeza = nodo
-        else:
-            if x > self.__cabeza.getDato():
-                nodo = Nodo(x)
-                nodo.setSiguiente(self.__cabeza)
-                self.__cabeza = nodo
-            else:
-                aux = self.__cabeza
-                sig = aux.getSiguiente()
-                while sig is not None and x <= sig.getDato():
-                    aux = sig
-                    sig = sig.getSiguiente()
-                nodo = Nodo(x)
-                aux.setSiguiente(nodo)
-                nodo.setSiguiente(sig)
-        self.__cantidad += 1
-    """
-
     def suprmir(self, p):
         if self.vacia():
             print("Lista vacía")
